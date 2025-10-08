@@ -5,8 +5,7 @@
 ---
 
 ### Wavely  
-Wavely is a native mobile application designed for water sports enthusiasts.  
-It provides real-time weather and ocean data to help users plan the best conditions for activities such as surfing, kitesurfing, and windsurfing.
+Wavely is a native mobile app designed for water sports enthusiasts. It provides real-time weather and ocean information to help users plan the best conditions for activities like surfing, kitesurfing, and windsurfing, along with other additional features.
 
 
 <img width="320" height="630" alt="Login" src="https://github.com/user-attachments/assets/12f391e0-da70-4723-bf34-127efe23fcf5" /><img width="320" height="630" alt="Forecasts" src="https://github.com/user-attachments/assets/5cc50fc7-3ff8-488b-be82-f4a70a4d34df" />
