@@ -1,4 +1,4 @@
-## Hi there 👋
+
 # Santiago Coto Vila
 
 ## Mobile Developer (iOS & Android)
