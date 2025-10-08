@@ -29,6 +29,7 @@ It includes secure authentication, attendance tracking, and an intuitive interfa
 **GitHub:** [github.com/santicotovila](https://github.com/santicotovila)  
 **LinkedIn:** [linkedin.com/in/santiago-coto-vila-3433a6310](https://www.linkedin.com/in/santiago-coto-vila-3433a6310/)  
 **Email:** santiagocotovila@outlook.com
+
 **Curriculum:** [Santiago_Coto_Vila_DEV.pdf](https://github.com/user-attachments/files/22780483/Santiago_Coto_Vila_DEV.pdf)
 
 
