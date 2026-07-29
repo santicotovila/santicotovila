@@ -8,7 +8,10 @@
 Wavely is a native mobile app designed for water sports enthusiasts. It provides real-time weather and ocean information to help users plan the best conditions for activities like surfing, kitesurfing, and windsurfing, along with other additional features.
 
 <img width="300" height="615" alt="Inicio" src="https://github.com/user-attachments/assets/73036355-6f39-4dc8-805f-c543720aa473" /><img width="300" height="615" alt="Forecast" src="https://github.com/user-attachments/assets/acd6813f-f511-4b9d-aeba-4122cc7dc98a" /><img width="300" height="615" alt="SpotDetail" src="https://github.com/user-attachments/assets/5e94f772-cc9c-4539-bd56-09e7149e09a2" />
-<img width="300" height="615" alt="Meetup" src="https://github.com/user-attachments/assets/786fd235-dbfa-4af3-8a11-76f5ddbacf28" /><img width="300" height="615" alt="Maps" src="https://github.com/user-attachments/assets/e9b138bf-ee07-4888-96a3-e61b03b34c71" /><img width="300" height="615" alt="Maps" src="https://github.com/user-attachments/assets/07ad3ad0-cbfc-4bc9-a409-a37c1f90d418" /><img width="300" height="615" alt="Events" src="https://github.com/user-attachments/assets/b566baa2-db1c-411f-b35e-5089211e3643" /><img width="300" height="615" alt="Meetup" src="https://github.com/user-attachments/assets/de1e61aa-8923-4b24-833b-a392631a7ab0" />
+<img width="300" height="615" alt="Meetup" src="https://github.com/user-attachments/assets/786fd235-dbfa-4af3-8a11-76f5ddbacf28" />
+<img width="300" height="615" alt="Meetup" src="https://github.com/user-attachments/assets/de1e61aa-8923-4b24-833b-a392631a7ab0" />
+
+<img width="300" height="615" alt="Maps" src="https://github.com/user-attachments/assets/07ad3ad0-cbfc-4bc9-a409-a37c1f90d418" /><img width="300" height="615" alt="Events" src="https://github.com/user-attachments/assets/b566baa2-db1c-411f-b35e-5089211e3643" />
 
 
 
