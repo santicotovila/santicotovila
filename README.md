@@ -7,9 +7,13 @@
 ### Wavely  
 Wavely is a native mobile app designed for water sports enthusiasts. It provides real-time weather and ocean information to help users plan the best conditions for activities like surfing, kitesurfing, and windsurfing, along with other additional features.
 
+| Inicio | Forecast | Spot Detail |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/73036355-6f39-4dc8-805f-c543720aa473" width="250" alt="Inicio" /> | <img src="https://github.com/user-attachments/assets/acd6813f-f511-4b9d-aeba-4122cc7dc98a" width="250" alt="Forecast" /> | <img src="https://github.com/user-attachments/assets/5e94f772-cc9c-4539-bd56-09e7149e09a2" width="250" alt="Spot Detail" /> |
 
-
-
+| Meetup | Events | Maps |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/786fd235-dbfa-4af3-8a11-76f5ddbacf28" width="250" alt="Meetup" /> | <img src="https://github.com/user-attachments/assets/34e01781-ba86-4edf-8ef9-aef253ad5002" width="250" alt="Events" /> | <img src="https://github.com/user-attachments/assets/5db19932-b6c8-4ebe-bdb6-ca1958fbe23f" width="250" alt="Maps" /> |
 
 ---
 
