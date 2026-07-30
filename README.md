@@ -26,7 +26,7 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>Inicio</b></td>
+      <td align="center"><b>Login</b></td>
       <td align="center"><b>Forecast</b></td>
       <td align="center"><b>Spot Detail</b></td>
     </tr>
