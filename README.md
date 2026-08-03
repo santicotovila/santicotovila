@@ -2,22 +2,30 @@
 
 ## Mobile Developer (iOS & Android)
 
-# Nolana — iOS App & Water Sports Community
+### About me
+Developer focused on the native mobile ecosystem, proficient in both Android and iOS. Specializing in iOS development: from UIKit to the cutting edge of SwiftUI. My experience covers the end-to-end workflow, from frontend to backend.
 
 <p align="left">
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/SwiftUI-007ACC?style=for-the-badge&logo=swift&logoColor=white" />
-  <img src="https://img.shields.io/badge/SwiftData-000000?style=for-the-badge&logo=apple&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/UIKit-007ACC?style=for-the-badge&logo=swift&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" />
+  <img src="https://img.shields.io/badge/SwiftData-F05138?style=for-the-badge&logo=swift&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vapor-F3507B?style=for-the-badge&logo=vapor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" />
 </p>
 
 **Santiago Coto Vila** — *Mobile Developer (iOS & Android)*
 
 ---
 
-## Sobre el Proyecto
+### Projects:
 
-**Nolana** es una aplicación nativa para iOS diseñada para la comunidad de deportes acuáticos. Permite la localización de *spots*, gestión de eventos comunitarios y la consulta de condiciones meteorológicas avanzadas en tiempo real.
+# Nolana — iOS App & Water Sports Community
+🔗 [App Store Link](https://apps.apple.com/es/app/nolana/id6774668817)
+
+**Nolana** is a native app designed for the water sports community. It enables spot discovery, community event management, and real-time advanced weather forecast tracking.
 
 ---
 
@@ -31,7 +39,7 @@
       <td align="center"><b>Spot Detail</b></td>
     </tr>
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/73036355-6f39-4dc8-805f-c543720aa473" height="450" alt="Inicio" /></td>
+      <td><img src="https://github.com/user-attachments/assets/73036355-6f39-4dc8-805f-c543720aa473" height="450" alt="Login" /></td>
       <td><img src="https://github.com/user-attachments/assets/acd6813f-f511-4b9d-aeba-4122cc7dc98a" height="450" alt="Forecast" /></td>
       <td><img src="https://github.com/user-attachments/assets/5e94f772-cc9c-4539-bd56-09e7149e09a2" height="450" alt="Spot Detail" /></td>
     </tr>
@@ -50,28 +58,27 @@
 
 ---
 
-## Arquitectura y Decisiones de Diseño
+## Architecture and Design Decisions
 
-El objetivo principal ha sido lograr un equilibrio entre **escalabilidad a largo plazo** y **rapidez en la entrega de valor**.
+The main goal was to achieve a balance between **long-term scalability** and optimal UX.
 
 ```text
-┌─────────────────────────────────────────────────────────────────┐
-│                           App Layer                             │
-│                      (SwiftUI + MapKit)                         │
-└─────────────────────────────────┬───────────────────────────────┘
-                                  │
-┌─────────────────────────────────▼───────────────────────────────┐
-│                       Presentation Layer                        │
-│                      (MVVM + Protocols)                         │
-└─────────────────────────────────┬───────────────────────────────┘
-                                  │
-┌─────────────────────────────────▼───────────────────────────────┐
-│                          Domain Layer                           │
-│                 (Clean Architecture & Entities)                 │
-└─────────────────┬───────────────────────────────┬───────────────┘
-                  │                               │
-┌─────────────────▼───────────────┐ ┌─────────────▼───────────────┐
-│            Data Layer           │ │       External Services     │
-│    (SwiftData Persistence /     │ │    (Firebase Auth & DB /    │
-│         Offline Engine)         │ │ Weather APIs Integration)   │
-└─────────────────────────────────┘ └─────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│                   Presentation Layer                    │
+│             (SwiftUI + MapKit + ViewModels)             │
+└────────────────────────────┬────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────┐
+│                      Domain Layer                       │
+│            (Use Cases, Entities & Protocols)            │
+└────────────────────────────▲────────────────────────────┘
+                             │ 
+┌────────────────────────────┴────────────────────────────┐
+│                        Data Layer                       │
+│  ┌────────────────────────┐  ┌───────────────────────┐  │
+│  │    Local Data Source   │  │ External Data Source  │  │
+│  │ (SwiftData / Offline   │  │  (Firebase Auth & DB /│  │
+│  │        Engine)         │  │ Weather APIs Integr.) │  │
+│  └────────────────────────┘  └───────────────────────┘  │
+└─────────────────────────────────────────────────────────┘
