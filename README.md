@@ -83,7 +83,3 @@ The main goal was to achieve a balance between **long-term scalability** and opt
 │  └────────────────────────┘  └───────────────────────┘  │
 └─────────────────────────────────────────────────────────┘
 
-
-
-
-
